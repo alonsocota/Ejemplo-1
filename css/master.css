@@ -1,0 +1,101 @@
+/*
+  Guia de la página:
+  0. RESETEO DE DISEÑO HTML
+  1. DISEÑO
+  2. ELEMENTOS DE LA PÁGINA
+  3. PARTES DE LA PÁGINA
+  4. LISTAS
+  5. FORMAS
+  ----------
+
+
+  /* 0 RESETEO DE DISEÑO HTML */
+  /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+  body {
+  	line-height: 1;
+  }
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+
+  /* DISENO */
+  body { text-align: center; font: 150 20px/1.7 'Montserrat';}
+  .header { display: flex; justify-content: center; align-items: center; background: #396060}
+   .navbar { display: flex; justify-content: center; align-items: center; }
+  .bottom {display: flex; justify-content: center; align-items: center;}
+     .list-services {display: flex; align-items: center; justify-content: center;}
+   .list-services figure { display: flex; justify-content: center; align-items: center; flex-flow: column;}
+
+  /* ELEMENTOS DE LA PAGINA */
+   .header { height: 320px; background: url(../images/backheader.jpg) no-repeat center top; background-size: cover;}
+   .navbar { height: 63px; background:  #cfe2e2;}
+   .navbar a { padding: 0 20px; color: #000; text-decoration: none; text-transform: uppercase; font: 20px 'Roboto';}
+   .title {margin-bottom: 40px; font: 45px 'Stint Ultra Condensed'; text-transform: uppercase;}
+    p {margin-bottom: 40px;}
+    .boton {border: 2px solid #fff; padding: 10px 40px; display: inline-block; text-decoration: none; color: #fff;}
+
+   /* PARTES DE LA PAGINA */
+    .content { padding: 50px 0;}
+
+    .who {background: #dfecec}
+    .who p { max-width: 1055px; margin: 0 auto;}
+
+    .services{ color: #fff ;background: url(../images/blur.jpg) no-repeat center top; background-size: cover;}
+
+    .ubicacion p { max-width: 1055px; margin: 0 auto;}
+    .ubicacion {color: #34495e; padding-bottom: 0; }
+    .ubicacion .map img {max-width: 100%; width: 100%; padding-top: 50px }
+
+    .contain {max-width: 1055px; margin: 0 auto;}
+    .bottom { height: 5px; background: #2f4f4f;}
+    .bottom p { max-width: 1055px; margin: 0 auto; color: #fff;}
+    .bottom a {padding: 0 20px; color: #fff; text-decoration: none; text-transform: uppercase; font: 25px 'Montserrat'; }
+
+
+    /* LISTAS */
+  .list-services figure { position: relative; width: 150px; height: 180 px;}
+  .list-services figure:after {content: ""; position: absolute; top: 0; left: -6px; border-radius: 60%; z-index: 0; background: #1d3030; width: 160px; height: 160px;}
+    .list-services img {position: relative; z-index: 1; }
+  .list-services li { padding: 0 30px; }
+.list-services figcaption { position: relative; left: 0; right: 0; bottom: -30px;}
