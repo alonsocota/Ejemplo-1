@@ -1,5 +1,6 @@
 # Screenshots from the project
 -Static landing page example
+https://alonsocota.github.io/Ejemplo-1/
 
 ![1](https://user-images.githubusercontent.com/40812564/42605382-7f094348-852c-11e8-8160-1f1c24340493.JPG)
 ![2](https://user-images.githubusercontent.com/40812564/42605497-11273014-852d-11e8-8518-e6e161efec9c.JPG)
